@@ -1,87 +1,111 @@
-# Welcome to React Router!
+# 🌍 Tourtrove
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A **modern AI-powered travel agency platform** with a stunning **public website** and a fully functional **admin dashboard**. Built for scalability, responsiveness, and a smooth user experience. Generate personalized trip itineraries, manage trips and users, and visualize travel insights with ease.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+🌐 **Live Demo:** [Check out Tourtrove on Vercel](https://travel-guide-roan-ten.vercel.app/)
 
 ---
 
-Built with ❤️ using React Router.
+## 📚 Table of Contents
+
+- 🤖 [Introduction](#-introduction)  
+- ⚙️ [Tech Stack](#-tech-stack)  
+- 🔋 [Features](#-features)  
+- 🤸 [Quick Start](#-quick-start)  
+- 🕸️ [Snippets (Code to Copy)](#️-snippets-code-to-copy)  
+- 🔗 [Assets](#-assets)  
+- 🚀 [More](#-more)  
+- ⚠️ [Tutorial](#%EF%B8%8F-tutorial)
+
+---
+
+## 🤖 Introduction
+
+**Tourtrove** is a full-stack travel agency application that enables users to:
+
+- 🧠 Generate **AI-powered trip itineraries** based on user preferences.
+- 🌍 Book trips via an intuitive and attractive **public interface**.
+- 🛠️ Use an **admin dashboard** for managing trips, users, and viewing analytics.
+
+---
+
+## ⚙️ Tech Stack
+
+| Frontend | Backend | UI | Services |
+|---------|--------|----|----------|
+| React 19 | Appwrite | Tailwind CSS | Stripe |
+| Vite | Appwrite DB | Syncfusion Charts | Gemini AI |
+| React Router v7 | Authentication | Modular Components | Unsplash API |
+
+---
+
+## 🔋 Features
+
+- 🤖 **AI-powered itinerary generation**
+- ✈️ **Trip booking** functionality
+- 📊 **Admin dashboard** with user/trip management
+- 📈 **Trip analytics and growth metrics**
+- 📋 **Interactive charts** and statistics tables
+- 📱 **Responsive, modern UI**
+- 🔐 **Secure authentication & data management**
+- ⚙️ **Modular code architecture**
+
+---
+
+## 🤸 Quick Start
+
+### 🔧 Prerequisites
+
+Ensure the following are installed on your system:
+
+- Git
+- Node.js
+- npm
+
+---
+
+### 📥 Cloning the Repository
+
+```bash
+git clone https://github.com/adrianhajdin/travel-agency-dashboard.git
+cd travel-agency-dashboard
+
+
+⸻
+
+📦 Installation
+
+npm install
+
+
+⸻
+
+⚙️ Environment Setup
+
+Create a .env file in the root directory and add the following:
+
+VITE_SYNCFUSION_LICENSE_KEY=
+VITE_APPWRITE_PROJECT_ID=
+VITE_APPWRITE_API_ENDPOINT=
+VITE_APPWRITE_API_KEY=
+VITE_APPWRITE_DATABASE_ID=
+VITE_APPWRITE_USERS_COLLECTION_ID=
+VITE_APPWRITE_ITINERARY_COLLECTION_ID=
+STRIPE_SECRET_KEY=
+GEMINI_API_KEY=
+UNSPLASH_ACCESS_KEY=
+VITE_BASE_URL="http://localhost:5173"
+
+🔐 Replace all placeholder values with your real credentials.
+
+⸻
+
+▶️ Running the Project
+
+npm run dev
+
+Visit http://localhost:5173 to explore Tourtrove locally.
+
+
+
+✨ Made with ❤️ by Vansh Yadav
